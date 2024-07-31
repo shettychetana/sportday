@@ -1,0 +1,47 @@
+
+.selected-event-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #fafafa;
+    transition: transform 0.3s ease;
+  }
+  
+  .selected-event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-category {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .event-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
